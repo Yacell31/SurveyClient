@@ -1,0 +1,48 @@
+[
+    {
+      "Id": "1",
+      "Name": "What size is your dog",
+      "ParentId": "",
+      "Answers":["Small", "Medium", "Large", "Mamoth"]
+     
+    },
+    {
+        "Id": "2",
+        "Name": "What type is your dog",
+        "ParentId": "",
+        "Answers":["Retriever", "Spaniel", "Other"],
+        "children": [
+          {
+            "Id": "3",
+            "Name": "Retriever",
+            "ParentId": "2",
+            "Answers":["Golden", "Lab", "Curly-Coated", "Chesapeake", "Other"],
+            "children": [
+              {
+                "Id": "4",
+                "Name": "What type",
+                "ParentId": "3",
+                "children": []
+              }
+
+            ]
+            },
+            {
+                "Id": "5",
+                "Name": "Spaniel",
+                "ParentId": "2",
+                "Answers":["King Charles", "Springer Spaniel", "English Spaniel"],
+                "children": [
+                  {
+                    "Id": "6",
+                    "Name": "What type",
+                    "ParentId": "5",
+                    "children": []
+                  }
+    
+                ]
+                }
+
+        ]
+    }
+  ]

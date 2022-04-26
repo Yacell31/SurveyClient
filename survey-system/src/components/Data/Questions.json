@@ -1,0 +1,31 @@
+{
+  "DogQuestionList": [
+    {
+      "1": [
+        {
+          "Question": "What size is your dog",
+          "Answers": ["Small","Medium","Large","Mamoth"]
+          
+        }],
+        "2":[{
+          "Question": "What type is your dog",
+          "Answers": [
+            {"Retriever":
+               ["Golden", "Lab", "Curly-Coated", "ChesaPeake", "Other"],
+                "Other": {"Question":"What type?"}},
+           { "Spaniel":
+              ["King Charles", "Springer Spaniel", "English Spaniel", "Other"], 
+               "Other": [{"Question":"What type"}, 
+                        {"Question":"What Colors?",
+                           "Answers": ["Black", "White", "Blue", "Green", "Other"], 
+                           "Other":"What Color?"}]},
+           {
+             "Other":{"Question":["What type", "Description"]}
+           }
+          ]
+        }],
+        "3":[{"Question": "How old is your dog?"}]
+    }
+    
+  ]
+}

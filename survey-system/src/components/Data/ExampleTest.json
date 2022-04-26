@@ -1,0 +1,6 @@
+[
+    {"Id":"1", "Name":"abc", "ParentId":""}, 
+    {"Id":"2", "Name":"abc", "ParentId":"1"},
+    {"Id":"3", "Name":"abc", "ParentId":"2"},
+    {"Id":"4", "Name":"abc", "ParentId":"2"}
+]
