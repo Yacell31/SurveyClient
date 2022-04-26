@@ -1,6 +1,9 @@
 # Survey
 A small survey with asp.net core and reactjs. Below my references or everything I had to look for while building this app.
 
+For config, please go to the folder services/axiosConfig.js and specify the domain or localhost port established for the backend project.
+
+
 References:
 https://mikefrancis.dev/blog/create-react-app-tailwind-css
 https://github.com/thamika123/react-quizzify
